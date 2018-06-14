@@ -2,8 +2,8 @@
 ## 1. Do your updates
 Do your updates! As software companies learn about vulnerabilities, they send out fixes. By not doing updates, you are making an attackers job easy by letting them use known exploits against you. Any software that is on your computer needs to be kept up to date. For example:
 * Your operating system.
-..* For windows, use windows update. You can go to http://windows.microsoft.com/en-us/windows/windows-update for more information.
-..* For a Mac, you can access updates through the app store. For more information go to https://support.apple.com/en-us/HT201541
+  * For windows, use windows update. You can go to http://windows.microsoft.com/en-us/windows/windows-update for more information.
+  * For a Mac, you can access updates through the app store. For more information go to https://support.apple.com/en-us/HT201541
 * Java - https://www.java.com/en/download/help/java_update.xml
 * Flash - https://helpx.adobe.com/flash-player.html
 * Antivirus - If your antivirus isn't up to date, it can't find all of the viruses out there.
