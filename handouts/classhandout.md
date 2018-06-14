@@ -1,4 +1,3 @@
-# Online Security Basics
 ## 1. Do your updates
 Do your updates! As software companies learn about vulnerabilities, they send out fixes. By not doing updates, you are making an attackers job easy by letting them use known exploits against you. Any software that is on your computer needs to be kept up to date. For example:
 * Your operating system.
