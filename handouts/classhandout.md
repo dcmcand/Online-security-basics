@@ -18,6 +18,7 @@ The best way to do this is to use a password manager. These programs will secure
 * KeePass - https://keepass.info
 * 1Password - https://1password.com
 * Bitwarden - https://bitwarden.com
+
 All of these password managers have a free level that you can try to get started. Even their premium levels are very affordable.
 
 ## 3. A Long Password is a Strong Password 
