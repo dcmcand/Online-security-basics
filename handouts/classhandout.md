@@ -27,7 +27,7 @@ So if your password is **kdiosn** there are 26^6 or 308,915,776 possibilities.
 
 If you increase the complexity by adding upper and lower case letters so your password is **KdIOsn** there are 52^6 or 19,770,609,664 possibilities.
 
-On the other hand if you double the length instead of the complexity, and make the password **kdiosnplanew** then there are 26^12 or 94,289,566,600,000,000 possibilities. That is 4,826,809 times stronger.
+On the other hand if you double the length instead of the complexity, and make the password **kdiosnplanew** then there are 26^12 or 94,289,566,600,000,000 possibilities. That is 4,826,809 times stronger that **KdIOsn**. 
 
 This assumes a random password that is not subject to a dictionary attack. A dictionary attack is where attackers have huge lists of commonly used passwords. Use your password manager to generate random passwords that are 16 digits long (or longer) and you will be very secure from someone guessing your password.
 
