@@ -21,7 +21,21 @@ The best way to do this is to use a password manager. These programs will secure
 All of these password managers have a free level that you can try to get started. Even their premium levels are very affordable.
 
 ## 3. A Long Password is a Strong Password 
+The most important thing you can do to make a good password is make it long. As password length increases its strength goes up exponentially. If you simply increase the complexity, strength only increases linearly. 
 
+So if your password is **kdiosn** there are 26^6 or 308,915,776 possibilities. 
+
+If you increase the complexity by adding upper and lower case letters so your password is **KdIOsn** there are 52^6 or 19,770,609,664 possibilities.
+
+On the other hand if you double the length instead of the complexity, and make the password **kdiosnplanew** then there are 26^12 or 94,289,566,600,000,000 possibilities. That is 4,826,809 times stronger.
+
+This assumes a random password that is not subject to a dictionary attack. A dictionary attack is where attackers have huge lists of commonly used passwords. Use your password manager to generate random passwords that are 16 digits long (or longer) and you will be very secure from someone guessing your password.
+
+For your master password, this unfortunately won't work. There are two methods to deal with this.
+
+1. Use the first letter of every word in a phrase. For example, "To be or not to be that is the question" becomes **tbontbtitq**. It is hard to get a really long password like this, and it could possibly be subject to a dictionary attack if you use a very common phrase, but it is decently strong and easily remembered.
+2. Use a passphrase. This takes a string of four or five **unrelated** words to make a passphrase. A classic example is [Correct Horse Battery Staple](https://www.xkcd.com/936/). For added complexity, you can change the seperator to something other than a space (yes spaces are valid to use in a password) i.e. Correct%Horse%Battery%Staple, change or alternate the case **CORRECT%horse%BATTERY%staple** or add padding digits at the beginning and end **26CORRECT%horse%BATTERY%staple52**. The key is that we are good at remembering strings of words, but they are still difficult for computers to brute force. As long as you are actually using random words, this is a very secure method. For help choosing a random passphrase, check out [diceware](http://world.std.com/%7Ereinhold/diceware.html). Remember, if you are using a password generator, you should only need to remember one password.
+ 
 ## 4. Don't rely on passwords
 
 ##  5. If you don't back it up, you don't care about it
