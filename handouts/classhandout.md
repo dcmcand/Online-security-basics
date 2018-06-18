@@ -62,10 +62,24 @@ Backups protect important information against malicious acts (such as ransomware
 Compare Cloud backup software at: <https://en.wikipedia.org/wiki/Comparison_of_online_backup_services>
 
 ## 6. Backups are worthless, restores are priceless
+In February 2017, [Gitlab](https://gitlab.com) lost six hours worth of customer data. They had multiple backup systems in place, yet all of them failed because they weren't properly tested and monitored. The only reason that they didn't lose more data is that an engineer working there had made a manual backup earlier in the day.
 
+Backups can fail for a number of reasons. Regularly checking that you can restore files from your backups means that when you need your backups, they won't fail you.
 ## 7. Send letters, not postcards
+When you send unencrypted traffic on the internet, it is like sending a postcard. Anyone along the path can read it. By using end to end encryption, you make sure that only the people that you want to read your message can do so. This is a feature that you should look for with any type of internet connected traffic you send.
+
+The most common internet traffic is http traffic. This is how your web browser loads websites. When you check your email, go to your bank, buy something on Amazon, or look at cute kitty pictures, it is done over http. However, http has no encryption built in. To address that, a more secure protocol was created that is called https. These days, all websites should be using https. It provides end to end encryption. Like sending a letter, observers can see where the traffic is going, but can't read the message. In more technical terms, https does not protect metadata, but does protect content. This means an observer can see that you are going to https://mybank.com, but won't be able to see any of your traffic like your password or account number. They can see you are going to https://webmd.com, but can't see what condition you are looking up. Any traffic you send that isn't protected by http can be seen by anybody in the traffic's route.
+
+This applies to messaging as well. Texting using sms is very convenient, but provides no security at all. Apps such as iMessage and WhatsApp provide more security. If you really want to chat securely, use [Signal](https://www.signal.org/). This provides strong end to end encryption and is very secure. It is as easy to use as normal text messaging, but prevents any snooping on your messages. You can even set your messages to autodestruct after a set length of time if you want to.
 
 ## 8. Practice defensive browsing
+The internet is full of people who want to profit off of you. The most benign of these simply want to show you ads, but many want to collect huge amounts of data on you, follow you from website to website, or even infect your computer with malware. We are still in the wild west stage of the internet, and you would do well to have a defensive mindset when browsing (or reading emails). There are some things that you can do to help your privacy and security.
+
+You can increase your security and privacy by using these browser plugins.
+1. **uBlock Origin** - this ad blocker is very effective and light weight. It can be easily customized or disabled if you need to. It is available for [chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) and for [firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/). Using a good ad blocker will reduce your vulnerability to malvertising (serving malware through ads) and save a good chunk of bandwidth, making sites load faster.
+2. **HTTPS Everywhere** - this plugin forces sites to use an HTTPS version if one is available. It is put out by the Electronic Frontier Foundation. As discussed earlier, HTTPS is very important for maintaining your privacy and security online. It is available at <https://www.eff.org/https-everywhere> for Firefox, Chrome, and Opera.
+3. **Privacy Badger** - Also from the EFF, privacy badger prevents online tracking. Many websites attempt to track your web browsing across many sites. Privacy badger blocks these trackers to keep companies from knowing about your browsing habits.
+
 
 ## 9. Don't trust public wifi
 
