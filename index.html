@@ -1,27 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Online Security Basics</title>
- <link rel="stylesheet" href="css/reveal.css">
- <link rel="stylesheet" href="css/theme/solarized.css">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-</head>
+		<title>Online Security Basics</title>
 
-<body>
-	<div>
-		<h1>Online Security Basics</h1>
-		<p>The top ten things you need to know to stay safe online. Presented by the <a href='https://leblibrary.com'>Lebanon Public Libraries</a></p>
-		<p>Links for the class presentation and class notes:
-		<ul><a href='https://bit.ly/2JJim3P'>https://bit.ly/2JJim3P</a> - Shortened URL for presentation</ul>
-		<ul><a href='/Online-security-basics/presentation'>Presentation</a></ul>
-		<ul><a href='/Online-security-basics/presentation?print-pdf'>Printable Slides</a></ul>
-		<ul><a href='/Online-security-basics/presentation?print-pdf&showNotes=true'>Printable Slides with speaker notes</a></ul>
-		<ul><a href='/Online-security-basics/handouts/classhandout'>Class Handout</a></ul>
-		</p>
-		<p>Help make this class better. Issues and pull requests can be submitted at <a href='https://github.com/dcmcand/Online-security-basics'>https://github.com/dcmcand/Online-security-basics</a>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css">
 
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1> Online Security Basics </h1>	
+					<aside class='notes'>
+
+					</aside>
+				</section>
+				<section>
+					<blockquote>
+						"By the end of this class, you will feel less secure and be more secure"<br/>
+					  - Blake Carver	
+						</ blockquote>
+						<aside class='notes'>
+						<p>Security is not binary. Something is more secure or less secure. It is wrong to say something is or is not secure.</p>
+						</aside></section>
+				<section>
+					1. Do Your Updates
+					<aside class="notes">
+						<p>Most hacks involve known vulnerabilities</p>
+						<p>Equifax hack used vulnerability that was patched months ago</p>
+						<p>Auto updates ensure that updates get applied</p>
+						<p>Software makers generally do well patching security vulnerabilities, but if you don't update, it doesn't matter</p>
+					</aside>
+				</section>
+				<section>
+					2. If you can remember all of your passwords, you are doing it wrong
+					<aside class="notes">
+						<p>LassPass estimates that 85% of account compromises are because of poor passwords</p>
+						<p>Every account shopd have strong, unique password</p>
+						<p>Credential stuffing attacks use compromised credentials on all poppar websites</p>
+						<p>Password Managers are the best way to deal with this
+							<p><a href='https://www.lastpass.com/' target='_blank'>LastPass</a></p>
+							<p><a href='https://bitwarden.com/' target='_blank'>Bitwarden</a></p>
+							<p><a href='https://keepass.info/' target='_blank'>KeePass</a></p>
+							<p><a href='https://1password.com/' target='_blank'>1Password</a></p>
+							</p>
+					</aside>
+				</section>
+				<section>
+					3. A Long Password is a Strong Password
+					<aside class="notes">
+						<p>Adding length to a password makes it much harder to guess than adding complexity</p>
+						<p>Passphrases are better than passwords</p>
+					</aside>
+				</section>
+				<section>
+					4. Don't rely on passwords
+					<aside class="notes">
+						<p>Two Factor Authentication (2FA) uses something you know (your password) and something you have (a cell phone normally) or something you are (biometrics)</p>
+						<p>2FA shopd be used everywhere possible, especially on email</p>
+						<p>keep backup codes safe in case your phone is lost or stolen</p>
+						<p>Avoid SMS 2FA if possible (sometimes it isn't possible). SMS 2FA is better than nothing but worse than everything else</p>
+					</aside>
+				</section>
+				<section>
+			    5. If you don't back it up, you don't care about it	
+					<aside class="notes">
+						<p>3,2,1 Rpe
+							<p>3 Copies of data</p>
+							<p>2 different media types</p>
+							<p>1 copy off site</p>
+							</p>
+							<p>Time machine/shadow copy can be used for local backup, but aren't fpl backup solutions by themselves</p>
+							<p>Backblaze, Carbonite, and other online solutions can be very good for offsite backups</p>
+					</aside>
+				</section>
+				<section>
+					6. Backups are worthless, restores are priceless	
+					<aside class="notes">
+						<p>2017 Gitlab lost hours of customer data because none of their 5 backup strategies worked</p>
+
+					</aside>
+				</section>
+				<section>
+					7. Send letters, not postcards	
+					<aside class="notes">
+						<p>End to end encryption is the only way to prevent snooping on your traffic</p>
+						<p>Https provides E2E encryption for web traffic</p>
+						<p>iMessage, WhatsApp, and Signal all provide E2E encryption for messaging</p>
+						<p>PGP can protect email, but it is harder to setup. Use signal if you need secure messaging</p>
+					</aside>
+				</section>
+				<section>
+					8. Practice defensive browsing
+					<aside class="notes">
+						<p>
+						Use privacy enhancing browser plugins
+						<ul>uBlock Origin</ul>
+						<ul>Https Everywhere</ul>
+						<ul>Privacy Badger</ul>
+						</p>
+						<p>
+						Use privacy enhancing settings
+						<ul>Use DDG for search</ul>
+						<ul>Use Firefox's tracking protection</ul>
+						</p>
+
+					</aside>
+				</section>
+				<section>
+					9. Don't trust public wifi
+					<aside class="notes">
+						<p>Open wifi provides no protection. Your traffic is literally being sent through the air where anyone can see it. Https protections still help though.</p>
+						<p>Secured wifi provides limited protections</p>
+						<p>WPA3 is coming and will vastly improve things</p>
+					</aside>
+				</section>
+				<section>
+					10. Don't trust email
+					<aside class="notes">
+						<p>Email does not have encryption by default</p>
+						<p>Email addresses are easy to spoof</p>
+						<p>Email accounts are often compromised by poor passwords</p>
+						<p>Do not open attachments unless you know what it is and where expecting it</p>
+						<p>Do not click links, instead go directly to the address in your web browser</p>
+					</aside>
+				</section>
+			</div>
 		</div>
-</body>
 
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>
