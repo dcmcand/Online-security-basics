@@ -91,3 +91,18 @@ The current security protocol used by WiFi is known as WPA2. Anything earlier su
 There is a new standard which will be coming out sometime in 2018 called WPA3 which will address many of the shortcomings of WPA2. This will be a big boost for WiFi security. It will allow encrypted communication on open and secured networks and will really boost the strength of the encryption.
 
 ## 10. Don't trust email
+Email is a huge attack vector for many people. You may get emails trying to trick you into giving up personal information (phishing) such as bank account numbers or passwords. You might get emails containing links to malicious files such as viruses, or even ransomware. The most important thing that you can do to avoid being a victim is learn to identify suspicious emails. Here are some things to look for:
+
+* Emails asking for personal information - These will often appear to be from organizations that you do business with. They may say that they need to verify your information for security purposes or use other scary language.
+* Emails with links to click on - Scammers often will include links that say they go to one place but actually go to another. For example if you click on a link that says [www.google.com](https://yahoo.com) you may find it doesn't take you to Google at all. Scammers use this to direct you to their websites to harvest any information (username, password, account number, etc) that they can get you to type in.
+* Emails that contain attachments are VERY dangerous - Attachments on emails can contain all kinds of malware and viruses. Simply opening the file can be enough to infect your system. This is the number one source of infection for a new type of virus called cryptolocker which encrypts all your files and threatens to delete them if you don't pay them a ransom.
+
+So what can you do if you think an email is a scam?
+
+* Never give out personal information in response to an email. If your bank emails you and says that they need to verify your information, call your bank to be sure that the email is legitimate, or go directly to their website using a web browser. Do not respond to the email at all.
+* If an email asks you to click on a link, do not do it. Even if it is from someone that you know. It is possible that their email has been compromised and scammers are using it to infect other people. If you want to visit the link, go to a web browser and navigate to the site. This ensures that you are going to the site that you think you are.
+* Do not download or open attachments unless they are from someone that you know and you are expecting the email. Even then make sure that you run a virus scan on the file before opening it.
+* Forward any phishing emails to spam@uce.gov to report it. Also, contact whatever organization the email claims to be from to alert them of the scam. This will allow them to let others know about the scam.
+* After this, delete the email. Do not respond to it.
+
+If you follow these steps, you should be much better protected against scams. Keep in mind that these emails can be extremely convincing so regular trainings are helpful. There are even ways to phish your own organization for training. Tools such as [Gophish](https://getgophish.com/) can allow you to simulate phishing emails to train your own organization.
